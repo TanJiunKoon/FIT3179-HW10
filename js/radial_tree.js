@@ -11,7 +11,7 @@
     { "name": "radius", "value": 360, "bind": {"input": "range", "min": 20, "max": 600} },
     { "name": "extent", "value": 360, "bind": {"input": "range", "min": 0, "max": 360, "step": 1} },
     { "name": "rotate", "value": 0, "bind": {"input": "range", "min": 0, "max": 360, "step": 1} },
-    { "name": "layout", "value": "tidy", "bind": {"input": "radio", "options": ["cluster", "tidy"]} },
+    { "name": "layout", "value": "cluster", "bind": {"input": "radio", "options": ["cluster", "tidy"]} },
     {
       "name": "links", "value": "line",
       "bind": { "input": "select", "options": ["line", "curve", "diagonal", "orthogonal"] }
