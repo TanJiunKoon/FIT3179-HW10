@@ -1,2 +1,3 @@
-Longitude,Latitude,text_annotation
-5.189325, 117.230722, Sabah has the, highest employmemt rate in Malaysia.
+Longitude,Latitude,text_annotation,text_annotation2
+5.189325, 117.230722, Sabah has the, highest unemploymemt rate in Malaysia.
+2.252128, 102.212361, Melaka has the, lowest unemploymemt rate in Malaysia.
