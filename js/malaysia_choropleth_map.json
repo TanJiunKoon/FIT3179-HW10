@@ -118,6 +118,31 @@
       "selection": {
         "hover": { "type": "single", "on": "mouseover", "empty": "none" }
       }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/TanJiunKoon/FIT3179-HW10/main/data/annotations.csv", 
+        "format": {"type": "csv"}
+      },
+      "encoding": {
+        "longitude": { "field": "Longitude", "type": "quantitative" },
+        "latitude": { "field": "Latitude", "type": "quantitative" }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "dx": -120,
+            "dy": 25,
+            "fontStyle": "italic",
+            "fontWeight": "bold",
+            "fontSize": 12,
+            "color": "#000000"
+          },
+          "encoding": { "text": { "field": "text_annotation" } }
+        }
+      ]
     }
   ]
 }
