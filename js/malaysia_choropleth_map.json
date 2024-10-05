@@ -109,7 +109,14 @@
             "title": "Unemployment Rate (%)",
             "format": ".1f"
           }
-        ]
+        ],
+        "fillOpacity": {
+          "condition": { "selection": "hover", "value": 0.5 },
+          "value": 1
+        }
+      },
+      "selection": {
+        "hover": { "type": "single", "on": "mouseover", "empty": "none" }
       }
     }
   ]
