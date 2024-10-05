@@ -8,7 +8,7 @@
 
   "signals": [
     { "name": "labels", "value": true, "bind": {"input": "checkbox"} },
-    { "name": "radius", "value": 360, "bind": {"input": "range", "min": 20, "max": 600} },
+    { "name": "radius", "value": 275, "bind": {"input": "range", "min": 20, "max": 600} },
     { "name": "extent", "value": 360, "bind": {"input": "range", "min": 0, "max": 360, "step": 1} },
     { "name": "rotate", "value": 0, "bind": {"input": "range", "min": 0, "max": 360, "step": 1} },
     { "name": "layout", "value": "cluster", "bind": {"input": "radio", "options": ["cluster", "tidy"]} },
