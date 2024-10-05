@@ -1,4 +1,4 @@
-import { dataValues } from 'data.js'; // Import dataset
+import { dataValues } from 'https://raw.githubusercontent.com/TanJiunKoon/FIT3179-HW10/refs/heads/main/data.js'; // Import dataset
 
 // Build a lookup map of id to node
 var dataMap = {};
